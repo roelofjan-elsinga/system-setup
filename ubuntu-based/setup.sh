@@ -23,7 +23,7 @@ sudo usermod -aG docker ${USER} && \
 su - ${USER}
 
 # Install PHPStorm & Spotify through snaps
-sudo snap install phpstorm && \
+sudo snap install phpstorm --classic && \
 sudo snap install spotify
 
 # Add update command to .bashrc
